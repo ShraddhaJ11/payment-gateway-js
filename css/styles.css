@@ -1,0 +1,117 @@
+#list {
+    margin: 50px 10px 10px 10px;
+}
+
+.creditCardForm {
+    max-width: 500px;
+    background-color: #fff;
+    margin: 50px auto;
+    overflow: hidden;
+    padding: 20px;
+    color: #4c4e56;
+}
+
+.creditCardForm label {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.creditCardForm .heading h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #4c4e56;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.creditCardForm .payment {
+    float: left;
+    font-size: 15px;
+    padding: 10px 25px;
+    position: relative;
+}
+
+.creditCardForm .payment .form-group {
+    float: left;
+    margin-bottom: 15px;
+}
+
+.creditCardForm .payment .form-control {
+    line-height: 40px;
+    height: auto;
+    padding: 0 16px;
+}
+
+.creditCardForm .CVV {
+    width: 25%;
+    margin-right: 30px;
+}
+
+.creditCardForm #card-number-field {
+    width: 100%;
+}
+
+.card-number::-webkit-inner-spin-button, 
+.card-number::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.creditCardForm #expiration-date {
+    width: 65%;
+    float: right;
+}
+
+.creditCardForm #credit_cards {
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.creditCardForm #pay-now {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.creditCardForm .payment .btn {
+    width: 100%;
+    margin-top: 3px;
+    font-size: 24px;
+    background-color: #3A56B7;
+    color: white;
+}
+
+.creditCardForm .payment select {
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.transparent {
+    opacity: 0.2;
+}
+
+.cross_button {
+    float: right;
+    cursor: pointer;
+    color: #000;
+    border: 1px solid #aeaeae;
+    border-radius: 50%;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 0px;
+    padding: 10px 5px;
+    z-index: 99;
+    margin-right: -10px;
+    margin-top: -69px;
+}
+
+@media(max-width: 650px) {
+    .creditCardForm .CVV,
+    .creditCardForm #expiration-date,
+    .creditCardForm #credit_cards {
+        width: 100%;
+    }
+    .creditCardForm #credit_cards {
+        text-align: left;
+    }
+}
